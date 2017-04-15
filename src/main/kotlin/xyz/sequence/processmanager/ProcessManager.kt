@@ -1,5 +1,7 @@
 package xyz.sequence.processmanager
 
+import xyz.sequence.processmanager.network.Update
+
 /**
  * Created by moltendorf on 2017-04-08.
  *
