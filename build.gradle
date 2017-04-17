@@ -27,7 +27,8 @@ sourceCompatibility = 1.8
 jar {
     manifest {
         attributes 'Main-Class': "${rootProject.group}.${rootProject.name}Kt",
-                'Release-Version': "${rootProject.version}"
+                'Release-Name': rootProject.name,
+                'Release-Version': rootProject.version
     }
 }
 
